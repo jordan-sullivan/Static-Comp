@@ -3,7 +3,19 @@
 }
 
 /*- - - - - Variables - - - - - */
-$primaryFont: "Inter", sans-serif;
-/*- - - - - General - - - - - */
+/* $primaryFont: "Inter", sans-serif; */
+/*- - - - - Mixins- - - - - */
 
 /*- - - - - General - - - - - */
+
+header {
+  background-color: grey;
+  height: 20vh;
+  width: 100%;
+  scroll-behavior: auto;
+}
+main {
+  background-color: pink;
+  height: 80vh;
+  width: 100%;
+}
