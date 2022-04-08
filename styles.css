@@ -67,3 +67,29 @@ main {
 .block {
   background-color: white;
 }
+
+.a-image {
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.views-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.number {
+  height: 100%;
+  width: 100%;
+}
+
+.block-titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
