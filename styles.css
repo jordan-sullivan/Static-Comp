@@ -21,10 +21,25 @@ header {
   align-content: stretch;
 }
 
+.shares-box1,
+.playlists-box2,
+.personal-vid-box3 {
+  display: flex;
+}
+
 .right-header {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.admin-user-box4 {
+  display: flex;
+}
+
+.logo-box5 {
+  height: 100%;
+  width: 100%;
 }
 
 nav {
@@ -47,4 +62,8 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 5%;
+}
+
+.block {
+  background-color: white;
 }
