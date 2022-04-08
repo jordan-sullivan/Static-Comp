@@ -85,6 +85,10 @@ h2 {
   width: 160%;
 }
 
+.arrow-icon {
+  height: 25%;
+  width: 25%;
+}
 .a-image {
   background-color: grey;
   display: flex;
