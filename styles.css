@@ -54,25 +54,32 @@ main {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+}
+.rectangle {
+  margin: 0%;
+  padding: 0%;
+  background-color: pink;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
 h2 {
   font-size: 300%;
+  background-color: pink;
+  margin: 0%;
 }
 
 .blocks-box {
-  border: 2px solid blue;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
   margin-top: 5%;
   height: 65%;
   width: 20%;
 }
 
 .block {
-  border: 2px solid red;
   background-color: white;
   height: 100%;
   width: 160%;
