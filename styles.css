@@ -10,12 +10,41 @@
 
 header {
   background-color: grey;
-  height: 20vh;
+  height: 30vh;
   width: 100%;
-  scroll-behavior: auto;
 }
+
+.left-header {
+  scroll-behavior: auto;
+  display: flex;
+  align-items: flex-end;
+  align-content: stretch;
+}
+
+.right-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+h2 {
+  font-size: 300%;
+}
+
 main {
   background-color: pink;
   height: 80vh;
   width: 100%;
+}
+
+.blocks-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 5%;
 }
