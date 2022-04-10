@@ -10,6 +10,7 @@
 
 header {
   background-color: grey;
+  /* background-color: #2b2b2b; */
   height: 30vh;
   width: 100%;
 }
@@ -89,8 +90,11 @@ h2 {
   height: 25%;
   width: 25%;
 }
+
 .a-image {
-  background-color: grey;
+  background-image: url(./images/bob.jpeg);
+  background-size: cover;
+  opacity: 80%;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
