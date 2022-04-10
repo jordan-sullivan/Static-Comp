@@ -1,59 +1,71 @@
-      <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta
       charset="UTF-8"
       <link
-      href="https://fonts.googleapis.com/css2?family=Playball&family=Playfair+Display&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
     <title>Static Comp</title>
   </head>
   <body>
+    <header>
+      <nav>
+        <section class="left-header">
+          <div class="shares-box1">
+            <img src="./images/share.png" alt="shares-icon" />
+            <p class="shares-header header">SHARES</p>
+          </div>
+          <div class="playlists-box2">
+            <img src="./images/play.png" alt="playlists-icon" />
+            <p class="playlists-header header">PLAYLISTS</p>
+          </div>
+          <div class="personal-vid-box3">
+            <img src="./images/avatar.png" alt="personal-vid-icon" />
+            <p class="personal-vid-header header">PERSONAL VIDEOS</p>
+          </div>
+        </section>
 
-      <header>
-        <nav
-        <div class="shares-box1">
-          <img src="" alt="shares-icon">
-          <p class="shares-header header">SHARES</p>
-        </div>
-        <div class="playlists-box2">
-          <img src="" alt="playlists-icon">
-          <p class="playlists-header header">PLAYLISTS</p>
-        </div>
-        <div class="personal-vid-box3">
-          <img src="" alt="personal-vid-icon">
-          <p class="personal-vid-header header">PERSONAL VIDEOS</p>
-        </div>
-        </nav>
-        <div class="admin-user-box4">
-          <img src="" alt="admin-logo">
-          <p class="admin">Admin Username</p>
-          <img src="" alt="triangle-dropdown-icon">
-        </div>
-        <div class="logo-box5">
-          <img src="www.example.com" alt="Static-Comp-logo">
-          <h1 class="two-win-header hidden">2-Win</h1>
-        </div>
-      </header>
-      <main>
-        <h2>Shares</h2>
-
+        <section class="right-header">
+          <div class="admin-user-box4">
+            <img src="./images/user.png" alt="admin-logo" />
+            <p class="admin">Admin Username</p>
+            <img src="./images/down.png" alt="triangle-dropdown-icon" />
+          </div>
+          <div class="logo-box5">
+            <img class="logo-image" src="./images/logo.png" alt="2-Win-logo" />
+            <h1 class="two-win-header hidden">2Win!</h1>
+          </div>
+        </section>
+      </nav>
+    </header>
+    <h2>Shares</h2>
+    <main>
+      <section class="rectangle">
         <section class="blocks-box">
           <section class="block" id="blockOne">
             <section class="a-image">
-              <img src="" alt="arrow-icon">
-              <p class="block-titles">VIEWS</p>
-              <p class="number" id="numberViews">01</p>
+              <img
+                class="arrow-icon"
+                src="./images/arrow.png"
+                alt="arrow-icon"
+              />
+              <section class="views-header">
+                <p class="block-titles">VIEWS</p>
+                <p class="number" id="numberViews">01</p>
+              </section>
             </section>
             <section class="b-relevant-info">
-              <p class="name-playlist" id="recipientsName">Recipient's Name Here</p>
+              <p class="name-playlist" id="recipientsName">
+                Recipient's Name Here
+              </p>
               <p class="date-time-info">Tuesday, 04/12/22 11:44am</p>
             </section>
             <section class="c-playlist">
               <p class="block-titles">PLAYLIST</p>
-              <p class ="name-playlist" id="nameOfPlaylist">Name of Playlist</p>
+              <p class="name-playlist" id="nameOfPlaylist">Name of Playlist</p>
             </section>
             <section class="d-attachments">
               <p class="block-titles">ATTACHMENTS</p>
@@ -62,160 +74,204 @@
           </section>
         </section>
 
-        <!-- <section class="blocks-box">
+        <section class="blocks-box">
           <section class="block" id="blockTwo">
             <section class="a-image">
-              <img src="" alt="arrow-icon">
+              <img
+                class="arrow-icon"
+                src="./images/arrow.png"
+                alt="arrow-icon"
+              />
               <p class="block-titles">VIEWS</p>
               <p class="number" id="numberViews">02</p>
             </section>
             <section class="b-relevant-info">
-              <p class="name-playlist" id="recipientsName">Recipient's Name Here</p>
+              <p class="name-playlist" id="recipientsName">
+                Recipient's Name Here
+              </p>
               <p class="date-time-info">Tuesday, 04/12/22 11:44am</p>
             </section>
             <section class="c-playlist">
               <p class="block-titles">PLAYLIST</p>
-              <p class ="name-playlist" id="nameOfPlaylist">Name of Playlist</p>
+              <p class="name-playlist" id="nameOfPlaylist">Name of Playlist</p>
             </section>
             <section class="d-attachments">
               <p class="block-titles">ATTACHMENTS</p>
               <p class="number" id="numberAttachments">02</p>
             </section>
           </section>
-        </section> -->
+        </section>
 
-        <!-- <section class="blocks-box">
+        <section class="blocks-box">
           <section class="block" id="blockThree">
             <section class="a-image">
-              <img src="" alt="arrow-icon">
+              <img
+                class="arrow-icon"
+                src="./images/arrow.png"
+                alt="arrow-icon"
+              />
               <p class="block-titles">VIEWS</p>
               <p class="number" id="numberViews">03</p>
             </section>
             <section class="b-relevant-info">
-              <p class="name-playlist" id="recipientsName">Recipient's Name Here</p>
+              <p class="name-playlist" id="recipientsName">
+                Recipient's Name Here
+              </p>
               <p class="date-time-info">Tuesday, 04/12/22 11:44am</p>
             </section>
             <section class="c-playlist">
               <p class="block-titles">PLAYLIST</p>
-              <p class ="name-playlist" id="nameOfPlaylist">Name of Playlist</p>
+              <p class="name-playlist" id="nameOfPlaylist">Name of Playlist</p>
             </section>
             <section class="d-attachments">
               <p class="block-titles">ATTACHMENTS</p>
               <p class="number" id="numberAttachments">03</p>
             </section>
           </section>
-        </section> -->
+        </section>
 
-        <!-- <section class="blocks-box">
+        <section class="blocks-box">
           <section class="block" id="blockFour">
             <section class="a-image">
-              <img src="" alt="arrow-icon">
+              <img
+                class="arrow-icon"
+                src="./images/arrow.png"
+                alt="arrow-icon"
+              />
               <p class="block-titles">VIEWS</p>
               <p class="number" id="numberViews">04</p>
             </section>
             <section class="b-relevant-info">
-              <p class="name-playlist" id="recipientsName">Recipient's Name Here</p>
+              <p class="name-playlist" id="recipientsName">
+                Recipient's Name Here
+              </p>
               <p class="date-time-info">Tuesday, 04/12/22 11:44am</p>
             </section>
             <section class="c-playlist">
               <p class="block-titles">PLAYLIST</p>
-              <p class ="name-playlist" id="nameOfPlaylist">Name of Playlist</p>
+              <p class="name-playlist" id="nameOfPlaylist">Name of Playlist</p>
             </section>
             <section class="d-attachments">
               <p class="block-titles">ATTACHMENTS</p>
               <p class="number" id="numberAttachments">04</p>
             </section>
           </section>
-        </section> -->
+        </section>
+      </section>
 
-        <!-- <section class="blocks-box">
+      <section class="rectangle">
+        <section class="blocks-box">
           <section class="block" id="blockFive">
             <section class="a-image">
-              <img src="" alt="arrow-icon">
+              <img
+                class="arrow-icon"
+                src="./images/arrow.png"
+                alt="arrow-icon"
+              />
               <p class="block-titles">VIEWS</p>
               <p class="number" id="numberViews">05</p>
             </section>
             <section class="b-relevant-info">
-              <p class="name-playlist" id="recipientsName">Recipient's Name Here</p>
+              <p class="name-playlist" id="recipientsName">
+                Recipient's Name Here
+              </p>
               <p class="date-time-info">Tuesday, 04/12/22 11:44am</p>
             </section>
             <section class="c-playlist">
               <p class="block-titles">PLAYLIST</p>
-              <p class ="name-playlist" id="nameOfPlaylist">Name of Playlist</p>
+              <p class="name-playlist" id="nameOfPlaylist">Name of Playlist</p>
             </section>
             <section class="d-attachments">
               <p class="block-titles">ATTACHMENTS</p>
               <p class="number" id="numberAttachments">05</p>
             </section>
           </section>
-        </section> -->
+        </section>
 
-        <!-- <section class="blocks-box">
+        <section class="blocks-box">
           <section class="block" id="blockSix">
             <section class="a-image">
-              <img src="" alt="arrow-icon">
+              <img
+                class="arrow-icon"
+                src="./images/arrow.png"
+                alt="arrow-icon"
+              />
               <p class="block-titles">VIEWS</p>
               <p class="number" id="numberViews">06</p>
             </section>
             <section class="b-relevant-info">
-              <p class="name-playlist" id="recipientsName">Recipient's Name Here</p>
+              <p class="name-playlist" id="recipientsName">
+                Recipient's Name Here
+              </p>
               <p class="date-time-info">Tuesday, 04/12/22 11:44am</p>
             </section>
             <section class="c-playlist">
               <p class="block-titles">PLAYLIST</p>
-              <p class ="name-playlist" id="nameOfPlaylist">Name of Playlist</p>
+              <p class="name-playlist" id="nameOfPlaylist">Name of Playlist</p>
             </section>
             <section class="d-attachments">
               <p class="block-titles">ATTACHMENTS</p>
               <p class="number" id="numberAttachments">06</p>
             </section>
           </section>
-        </section> -->
+        </section>
 
-        <!-- <section class="blocks-box">
+        <section class="blocks-box">
           <section class="block" id="blockSeven">
             <section class="a-image">
-              <img src="" alt="arrow-icon">
+              <img
+                class="arrow-icon"
+                src="./images/arrow.png"
+                alt="arrow-icon"
+              />
               <p class="block-titles">VIEWS</p>
               <p class="number" id="numberViews">07</p>
             </section>
             <section class="b-relevant-info">
-              <p class="name-playlist" id="recipientsName">Recipient's Name Here</p>
+              <p class="name-playlist" id="recipientsName">
+                Recipient's Name Here
+              </p>
               <p class="date-time-info">Tuesday, 04/12/22 11:44am</p>
             </section>
             <section class="c-playlist">
               <p class="block-titles">PLAYLIST</p>
-              <p class ="name-playlist" id="nameOfPlaylist">Name of Playlist</p>
+              <p class="name-playlist" id="nameOfPlaylist">Name of Playlist</p>
             </section>
             <section class="d-attachments">
               <p class="block-titles">ATTACHMENTS</p>
               <p class="number" id="numberAttachments">07</p>
             </section>
           </section>
-        </section> -->
+        </section>
 
-        <!-- <section class="blocks-box">
+        <section class="blocks-box">
           <section class="block" id="blockEight">
             <section class="a-image">
-              <img src="" alt="arrow-icon">
+              <img
+                class="arrow-icon"
+                src="./images/arrow.png"
+                alt="arrow-icon"
+              />
               <p class="block-titles">VIEWS</p>
               <p class="number" id="numberViews">08</p>
             </section>
             <section class="b-relevant-info">
-              <p class="name-playlist" id="recipientsName">Recipient's Name Here</p>
+              <p class="name-playlist" id="recipientsName">
+                Recipient's Name Here
+              </p>
               <p class="date-time-info">Tuesday, 04/12/22 11:44am</p>
             </section>
             <section class="c-playlist">
               <p class="block-titles">PLAYLIST</p>
-              <p class ="name-playlist" id="nameOfPlaylist">Name of Playlist</p>
+              <p class="name-playlist" id="nameOfPlaylist">Name of Playlist</p>
             </section>
             <section class="d-attachments">
               <p class="block-titles">ATTACHMENTS</p>
               <p class="number" id="numberAttachments">08</p>
             </section>
           </section>
-        </section> -->
-
+        </section>
+      </section>
     </main>
   </body>
 </html>
