@@ -23,8 +23,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* display: flex;
-  align-items: stretch; */
 }
 
 nav {
@@ -135,7 +133,7 @@ h2 {
 }
 /* - - - - - - - - Blocks - - - - - - - -  */
 .blocks-box {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   margin-top: 2%;
   padding-left: 2%;
@@ -145,43 +143,54 @@ h2 {
 
 .block {
   background-color: white;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   height: 100%;
   width: 160%;
+  border-radius: 3px;
 }
 
 .arrow-icon {
-  height: 25%;
+  height: 45%;
   width: 25%;
   display: flex;
 }
 
 .a-image {
-  background-image: url(./images/bob.jpeg);
+  background-image: url(./images/jan.jpeg);
   background-size: cover;
   opacity: 80%;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  height: 35%;
 }
 
 .views-header {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: flex-end;
+  justify-content: flex-start;
+  color: #2b2b2b;
+  font-weight: bold;
+  height: 40%;
 }
 
 .number {
   height: 100%;
   width: 100%;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-style: lighter;
+  height: 60%;
+  color: white;
 }
 
-.block-titles {
+/* .block-titles {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end;
-}
+  align-items: flex-end; */
+/* } */
 .hidden {
   display: none;
 }
