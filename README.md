@@ -1,10 +1,10 @@
 # Static Composition
 
-![my Comp](../images/comp.png)
+![my Comp](./images/comp.png)
 
 ### My Match
 
-![Original comp](../images/original-comp.png)
+![Original comp](./images/original-comp.png)
 
 ### Original Comp
 
