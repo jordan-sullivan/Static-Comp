@@ -185,12 +185,48 @@ h2 {
   color: white;
 }
 
-/* .block-titles {
+.b-relevant-info {
+  height: 16%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-end; */
-/* } */
-.hidden {
+  justify-content: center;
+  padding-left: 2%;
+}
+
+#recipientsName {
+  font-size: 17px;
+  font-weight: normal;
+  margin: 1%;
+  padding-top: 10%;
+}
+.date-time-info {
+  margin: 1%;
+}
+
+.block-titles {
+  margin-top: 5%;
+  padding-bottom: 0%;
+  padding: 5%;
+  font-size: 17%;
+  font-weight: lighter;
+}
+
+#numberAttachments {
+  color: #30b7ff;
+  font-size: 33px;
+  padding-left: 5%;
+  margin: 1%;
+}
+.c-playlist {
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+}
+#nameOfPlaylist {
+  font-size: 17px;
+  font-weight: normal;
+  padding-left: 4%;
+}
+.d- .hidden {
   display: none;
 }
